@@ -49,8 +49,6 @@ def main():
             if (min_dist is None) or (dist < min_dist[2]):
                 min_dist = (index_a, index_b, dist)
     
-    assert(len(distances) == math.comb(n, 2))
-    
     print(f"min distance: {min_dist}")
     print(f"max distance: {max_dist}")
 

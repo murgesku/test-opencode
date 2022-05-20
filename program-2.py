@@ -4,8 +4,6 @@ def main():
     import math
     from itertools import combinations
 
-    from typing import TextIO
-
     vectors: list[list[float]] = []
 
     # считываем векторы из файла
